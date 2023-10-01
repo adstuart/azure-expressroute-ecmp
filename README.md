@@ -53,3 +53,9 @@ Virtual network gateway, Active, 172.16.240.0/25, Virtual network gateway, 10.2.
 Virtual network gateway, Active, 172.16.240.0/25, Virtual network gateway, 10.20.88.55
 Virtual network gateway, Active, 172.16.240.0/25, Virtual network gateway, 10.20.88.56
 ```
+
+## VNG + ARS
+
+```
+Virtual network gateway, Active, 172.16.240.0/25, Virtual network gateway, 10.2.146.56
+```
