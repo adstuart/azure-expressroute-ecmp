@@ -9,6 +9,7 @@
 ## VWAN (New Hub October 2023)
 
 ```
+
 Virtual network gateway
 Active
 192.168.2.0/24
@@ -21,4 +22,5 @@ Active
 Virtual network gateway
 10.3.129.37
 -
+
 ```
