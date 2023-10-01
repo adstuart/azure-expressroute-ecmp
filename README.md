@@ -39,3 +39,16 @@ Virtual network gateway, Active, 192.168.2.0/24, Virtual network gateway, 10.3.1
 Virtual network gateway, Active, 192.168.2.0/24, Virtual network gateway, 10.3.129.36
 Virtual network gateway, Active, 192.168.2.0/24, Virtual network gateway, 10.3.129.37
 ```
+
+# Dual circuits (4 paths, all same AS-Path)
+
+![Alt text](/dual.png)
+
+## VNG
+
+```
+Virtual network gateway, Active, 172.16.240.0/25, Virtual network gateway, 10.2.146.56
+Virtual network gateway, Active, 172.16.240.0/25, Virtual network gateway, 10.2.146.57
+Virtual network gateway, Active, 172.16.240.0/25, Virtual network gateway, 10.20.88.55
+Virtual network gateway, Active, 172.16.240.0/25, Virtual network gateway, 10.20.88.56
+```
