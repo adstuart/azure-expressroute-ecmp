@@ -64,3 +64,21 @@ ECMP broken outbound, single link used as per open documented bug [here](https:/
 ```
 Virtual network gateway, Active, 172.16.240.0/25, Virtual network gateway, 10.2.146.56
 ```
+
+# Beyond 4 pathes (Beyond 2 circuits)
+
+![Alt text](/dublin.png)
+
+### VNG
+
+ECMP outbound over five links. Up to Azure SDN limit of 8 links.
+
+```
+Virtual network gateway, Active, 172.16.240.0/25, Virtual network gateway, 10.2.146.56
+Virtual network gateway, Active, 172.16.240.0/25, Virtual network gateway, 10.2.146.57
+Virtual network gateway, Active, 172.16.240.0/25, Virtual network gateway, 10.20.88.110
+Virtual network gateway, Active, 172.16.240.0/25, Virtual network gateway, 10.20.88.55
+Virtual network gateway, Active, 172.16.240.0/25, Virtual network gateway, 10.20.88.56
+
+```
+
