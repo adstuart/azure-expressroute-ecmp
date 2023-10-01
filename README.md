@@ -5,10 +5,7 @@
 
 # Single circuit (Primary/Secondary routes same AS-Path)
 
-```
-PRI: 192.168.2.0/24, 169.254.1.1, 0, 65000 65001 65001 65002
-SEC: 192.168.2.0/24, 169.254.1.5, 0, 65000 65001 65001 65002
-```
+![Alt text](/single.png)
 
 ## VNG
 
