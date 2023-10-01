@@ -2,6 +2,8 @@
 
 All testing done in West Europe region.
 
+# Single circuit (Primary/Secondary routes same AS-Path)
+
 ## VNG
 
 ```
