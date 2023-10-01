@@ -16,6 +16,8 @@ Virtual network gateway, Active, 192.168.2.0/24, Virtual network gateway, 10.3.1
 Virtual network gateway, Active, 192.168.2.0/24, Virtual network gateway, 10.3.129.37
 ```
 
+![Alt text](/equal.png)
+
 ## VNG + ARS
 
 ```
