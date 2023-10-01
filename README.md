@@ -3,7 +3,7 @@
 - All testing done in West Europe region.
 - All outputs show effective-routes from Spoke VM NIC
 
-# Single circuit (Primary/Secondary routes same AS-Path)
+# Single circuit (Primary/Secondary paths same AS-Path)
 
 ![Alt text](/single.png)
 
