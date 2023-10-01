@@ -9,6 +9,8 @@
 
 ## VNG
 
+ECMP outbound over two links as expected.
+
 ```
 Virtual network gateway, Active, 192.168.2.0/24, Virtual network gateway, 10.3.129.36
 Virtual network gateway, Active, 192.168.2.0/24, Virtual network gateway, 10.3.129.37
@@ -17,6 +19,8 @@ Virtual network gateway, Active, 192.168.2.0/24, Virtual network gateway, 10.3.1
 ![Alt text](/equal.png)
 
 ## VNG + ARS
+
+ECMP broken outbound, single link used as per open documented bug [here](https://learn.microsoft.com/en-us/azure/route-server/troubleshoot-route-server#why-is-the-equal-cost-multi-path-ecmp-function-of-my-expressroute-turned-off-after-i-deploy-azure-route-server-to-the-virtual-network).
 
 ```
 Virtual network gateway, Active, 192.168.2.0/24, Virtual network gateway, 10.3.129.36
@@ -44,6 +48,8 @@ Virtual network gateway, Active, 192.168.2.0/24, Virtual network gateway, 10.3.1
 
 ## VNG
 
+ECMP outbound over four links as expected.
+
 ```
 Virtual network gateway, Active, 172.16.240.0/25, Virtual network gateway, 10.2.146.56
 Virtual network gateway, Active, 172.16.240.0/25, Virtual network gateway, 10.2.146.57
@@ -52,6 +58,8 @@ Virtual network gateway, Active, 172.16.240.0/25, Virtual network gateway, 10.20
 ```
 
 ## VNG + ARS
+
+ECMP broken outbound, single link used as per open documented bug [here](https://learn.microsoft.com/en-us/azure/route-server/troubleshoot-route-server#why-is-the-equal-cost-multi-path-ecmp-function-of-my-expressroute-turned-off-after-i-deploy-azure-route-server-to-the-virtual-network).
 
 ```
 Virtual network gateway, Active, 172.16.240.0/25, Virtual network gateway, 10.2.146.56
