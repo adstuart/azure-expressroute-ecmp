@@ -30,12 +30,16 @@ Virtual network gateway, Active, 192.168.2.0/24, Virtual network gateway, 10.3.1
 
 ## VWAN + RI
 
+ECMP outbound over two links - official support pending.
+
 ```
 Virtual network gateway, Active, 192.168.2.0/24, Virtual network gateway, 10.3.129.36
 Virtual network gateway, Active, 192.168.2.0/24, Virtual network gateway, 10.3.129.37
 ```
 
 ## VWAN (New Hub October 2023)
+
+ECMP outbound over two links - official support pending.
 
 ```
 Virtual network gateway, Active, 192.168.2.0/24, Virtual network gateway, 10.3.129.36
