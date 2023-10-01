@@ -24,6 +24,8 @@ Virtual network gateway, Active, 192.168.2.0/24, Virtual network gateway, 10.3.1
 Virtual network gateway, Active, 192.168.2.0/24, Virtual network gateway, 10.3.129.36
 ```
 
+![Alt text](/unequal.png)
+
 ## VWAN + RI
 
 ```
