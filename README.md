@@ -1,5 +1,7 @@
 # ExpressRoute outbound ECMP
 
+All testing done in West Europe region.
+
 ## VNG
 
 ```
