@@ -75,7 +75,7 @@ Virtual network gateway, Active, 172.16.240.0/25, Virtual network gateway, 10.2.
 
 ### VNG
 
-ECMP outbound over five links. Up to Azure SDN limit of 8 links.
+ECMP outbound over five links. Up to Azure SDN limit of 8 links (4 circuits) - [link](https://learn.microsoft.com/en-us/azure/expressroute/expressroute-faqs#how-can-i-ensure-high-availability-for-a-virtual-network-connected-to-expressroute:~:text=the%20outgoing%20traffic%20from%20your%20virtual%20network%20will%20be%20load%2Dbalanced%20using%20Equal%2DCost%20Multipath%20(ECMP)%20across%20a%20maximum%20of%204%20circuits.).
 
 ```
 Virtual network gateway, Active, 172.16.240.0/25, Virtual network gateway, 10.2.146.56
